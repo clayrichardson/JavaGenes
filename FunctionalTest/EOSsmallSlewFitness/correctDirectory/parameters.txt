@@ -1,0 +1,29 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+SSRcapacity = 2
+taskSSRuse = 1
+typicalTimeBetweenGroundStationDownload = 5400
+permutationLength = 49
+populationSize = 10
+kidsPerGeneration = 20
+maximumGenerations = 3
+tournamentProbability = 1.0
+fitnessFunction = gov.nasa.javaGenes.core.WeightedSumFitness	1.0 NumberOfTakeImages		1.0 MinimizeSlewing, normization 0		1.0 MinimizeSlewing, normization 2		1.0 SmallSlewsFitness, normization 0		1.0 SmallSlewsFitness, normization 1
+evaluationFunction = gov.nasa.javaGenes.core.FitnessFunctionMultiObjective	1.0 NumberOfTakeImages		1.0 MinimizeSlewing, normization 0		1.0 MinimizeSlewing, normization 2		1.0 SmallSlewsFitness, normization 0		1.0 SmallSlewsFitness, normization 1
+paretoFitness = null
+breeder = gov.nasa.javaGenes.core.BreederSteadyState@49b290
+childMakerProvider = ChildMakerProvider EOSOrderMutation swaps = 1, EOSPositionCrossover, 
+separateLogAndEvolvableFiles = true
+logBestEvolvableEachGeneration = true
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

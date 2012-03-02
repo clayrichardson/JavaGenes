@@ -1,0 +1,5 @@
+generation	name	gov.nasa.javaGenes.core.WeightedSumFitness		up	down	between	total	upFraction	downFraction	betweenFraction
+10	OrderMutation swaps = 1		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+10	OrderMutation swaps = 2		146.0	6	1	6	13	0.46153846153846156	0.07692307692307693	0.46153846153846156	
+10	OrderMutation swaps = 3		432.0	19	0	11	30	0.6333333333333333	0.0	0.36666666666666664	
+10	OrderMutation swaps = 4		1129.5	36	6	15	57	0.631578947368421	0.10526315789473684	0.2631578947368421	

@@ -1,0 +1,83 @@
+kill and run perl scripts have separate bad nodes lists.
+
+Get 'Isolation (S12)' into TDRSS fitness function (see Goddard related email).
+
+Fix up antenna variables.  They are very unclean in subclass heirarchy.
+
+TechReport for nittin and ankur?
+	Extended abstract to tek?
+
+rationalize segment ID numbers (done both when segments created and nec lines generated, should be latter?).
+	-- pass in ID and nec counts as parameters instead of keeping in the segment
+
+Setting a different cubesat body in Cubesat*.java is a little crufty.  Done strictly through static and need 3 lines to do properly.
+
+Have WireSegmentList check for crossing wires (endpoints can match, but not both) -- look at Wire.java code at same time
+
+
+For calculating mean and stddev, allow elimination of outliers.
+
+name change: axialBd -> axialFactor
+
+How about splines to generate multiple numbers?  A general facility could reduce the number of parameters significantly.  It might even be
+interesting to run an antenna with spines for things, then convert to a more general representation to fine tune it.
+
+Breeder to have a fitness threshold for children!
+	core, HFC, HillClimbing
+
+Output some measure of population convergance besides fitness standard deviation.  Should be easy enough for antennas.
+	Perhaps sum of distance from the best (avoid N^2 problem)
+
+HFC
+	QUESTION: should bottom breeder have it's top fitness raised?  We're doing it that way now.
+
+Segments in first cubesat segment.  Where apply feed?  How many?
+
+Test XYZ manufacturing with the first segment exempted
+
+bring frequencies, phi-theta sampling, deck pre-post into antenna?
+
+MutationInsert maximum size
+
+Fix bias toward short genomes in var ops for EvolvableDoubleList
+
+-- xyz manufacturing error issue
+	-- have karen take a look (send her stuff to look at)
+	-- start not on the first (0) segment, in case x,y variation on end of first segment is the issue.
+
+
+Simulation studies:
+Different segment lengths
+Comparison with experiment?
+
+handy web site: http://www.microwaves101.com/
+
+Try XYZ manufacturing errors
+	0.00005 ala Greg
+	add radius errors? 0.00003 ala greg
+What about concatenating runs?  E.g., hill climb after GA?  Create new populations from previous runs?
+Immediate: take best from one run to create the population for the next run.
+
+
+Parallelization and Islanding:
+
+One process (master) runs N populations, each with its own Parameters class.  This class is an RMI server.  Methods:
+
+JavaGenesMaster:
+Vector jobs = array of Run objects (get DistributedBreeders and export them)
+
+DistributedBreeder getDistributedBreeder();
+
+DistributedBreeder (must be exported and thread safe)
+EvolvableAndFitnessFunction getChild(JavaGenesSlave myself); or do evaluation on master machine
+boolean putIndividual(Individual); // returns whether any additional individuals will ever be needed
+
+EvolvableAndFitnessFunction
+FitnessFunction
+Evolvable
+
+JaavaGenesSlave
+JavaGenesMaster 
+void getNewDistributedBreeder()
+	JavaGenesMaster.getDistributedBreeder().
+	

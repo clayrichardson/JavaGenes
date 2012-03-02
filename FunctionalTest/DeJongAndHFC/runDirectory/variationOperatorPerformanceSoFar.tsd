@@ -1,0 +1,11 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+100	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.6140199035369795 minimumNumberToSelect = 10 expandIntervalsBy = 1.3606460336897037		-2433.257280525226	14	105	18	137	0.10218978102189781	0.7664233576642335	0.13138686131386862	
+100	CrossoverAdewaya selector = SelectAll		-482.8983744276038	4	27	7	38	0.10526315789473684	0.7105263157894737	0.18421052631578946	
+100	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9198198362762421		-2720.189079888785	3	96	23	122	0.02459016393442623	0.7868852459016393	0.1885245901639344	
+100	CrossoverAdewaya selector = SelectAll		-1096.3769413106368	9	54	11	74	0.12162162162162163	0.7297297297297297	0.14864864864864866	
+100	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428		-4609.44650349029	4	156	39	199	0.020100502512562814	0.7839195979899497	0.19597989949748743	
+100	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2414266649056221 minimumNumberToSelect = 10		-2235.6995938665605	10	127	43	180	0.05555555555555555	0.7055555555555556	0.2388888888888889	
+100	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.10872383514798663 minimumNumberToSelect = 10		-1078.800767108582	1	56	19	76	0.013157894736842105	0.7368421052631579	0.25	
+100	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.42315137357133314 minimumNumberToSelect = 10		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+100	CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0		-2.053506828247535	0	1	0	1	0.0	1.0	0.0	
+100	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.6063780921023099 minimumNumberToSelect = 10 expandIntervalsBy = 1.2272728928138557		-183.98128354329438	0	6	0	6	0.0	1.0	0.0	

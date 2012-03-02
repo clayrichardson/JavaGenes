@@ -1,0 +1,3 @@
+name	JavaGenes.WeightedSumFitness	up	down	same
+EOSOrderMutation swaps = 1	0.0	0	0	26	
+EOSPositionCrossover	-70.3167645639744	22	19	27	

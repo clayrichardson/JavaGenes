@@ -1,0 +1,11 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+10	CrossoverAdewaya selector = SelectAll		-73.49912190404322	0	2	0	2	0.0	1.0	0.0	
+10	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.46682195046096386 minimumNumberToSelect = 10 expandIntervalsBy = 1.1609050664349267		-33.95280558953265	0	2	0	2	0.0	1.0	0.0	
+10	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428		-65.95113394649067	0	2	0	2	0.0	1.0	0.0	
+10	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.8063989265080131 minimumNumberToSelect = 1 expandIntervalsBy = 1.2924168816790573		-21.88781894693953	0	3	1	4	0.0	0.75	0.25	
+10	Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectFixedNumber numberToSelect = 8		-7.4115813305691205	0	1	1	2	0.0	0.5	0.5	
+10	Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2313299702226269 minimumNumberToSelect = 10		63.47688637861519	2	1	0	3	0.6666666666666666	0.3333333333333333	0.0	
+10	CrossoverPickOne selector = SelectByProbability probability = 0.5 minimumNumberToSelect = 1		4.9840671452588765	1	1	2	4	0.25	0.25	0.5	
+10	CrossoverAdewaya selector = SelectAll		-51.14909622214066	0	3	1	4	0.0	0.75	0.25	
+10	MutationFixedStdDev selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.4629177788732003 minimumNumberToSelect = 1 standardDeviation = 0.0516990189981142		-4.886288811597824	2	3	0	5	0.4	0.6	0.0	
+10	CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0		-47.714018439572655	1	2	0	3	0.3333333333333333	0.6666666666666666	0.0	

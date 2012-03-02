@@ -1,0 +1,11 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+13	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428		-52.03655474787338	0	3	0	3	0.0	1.0	0.0	
+13	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.46682195046096386 minimumNumberToSelect = 10 expandIntervalsBy = 1.1609050664349267		-29.26086825531152	0	3	1	4	0.0	0.75	0.25	
+13	CrossoverAdewaya selector = SelectAll		-31.325020227848682	0	2	1	3	0.0	0.6666666666666666	0.3333333333333333	
+13	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.8063989265080131 minimumNumberToSelect = 1 expandIntervalsBy = 1.2924168816790573		-0.8266745134595084	0	1	0	1	0.0	1.0	0.0	
+13	CrossoverAdewaya selector = SelectAll		-10.790706448614678	1	1	1	3	0.3333333333333333	0.3333333333333333	0.3333333333333333	
+13	MutationFixedStdDev selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.4629177788732003 minimumNumberToSelect = 1 standardDeviation = 0.0516990189981142		-3.90811913477204	3	3	0	6	0.5	0.5	0.0	
+13	CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0		16.34370300327167	2	0	1	3	0.6666666666666666	0.0	0.3333333333333333	
+13	CrossoverAdewaya selector = SelectAll		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+13	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2414266649056221 minimumNumberToSelect = 10		-17.335926853103416	0	1	0	1	0.0	1.0	0.0	
+13	CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0		0.0	0	0	0	0	-1.0	-1.0	-1.0	

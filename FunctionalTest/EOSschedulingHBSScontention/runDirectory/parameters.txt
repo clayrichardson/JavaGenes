@@ -1,0 +1,29 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+SSRcapacity = 2
+taskSSRuse = 1
+typicalTimeBetweenGroundStationDownload = 5400
+permutationLength = 45
+populationSize = 2
+kidsPerGeneration = 20
+maximumGenerations = 3
+tournamentProbability = 1.0
+fitnessFunction = gov.nasa.javaGenes.core.WeightedSumFitness	1.0 NumberOfTakeImages
+evaluationFunction = MinimizeSlewing, normization 0
+paretoFitness = null
+breeder = class gov.nasa.javaGenes.EOSscheduling.HBSS.Breeder: accepter = gov.nasa.javaGenes.hillClimbing.AcceptImprovement@a89ce3 RestartPolicy = gov.nasa.javaGenes.hillClimbing.RestartNever@d439fe RandomChildMaker = EOSscheduling.HBSS.ChildMaker
+childMakerProvider = ChildMakerProvider EOSscheduling.HBSS.ChildMaker, 
+separateLogAndEvolvableFiles = true
+logBestEvolvableEachGeneration = true
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

@@ -1,0 +1,28 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+SSRcapacity = 2
+taskSSRuse = 1
+typicalTimeBetweenGroundStationDownload = 5400
+permutationLength = 45
+populationSize = 2
+kidsPerGeneration = 20
+maximumGenerations = 3
+tournamentProbability = 1.0
+fitnessFunction = JavaGenes.WeightedSumFitness	1.0 NumberOfTakeImages
+evaluationFunction = MinimizeSlewing, normization 0
+paretoFitness = null
+breeder = HillClimbing Breeder: accepter = HillClimbing.AcceptImprovement@96f4b5 RestartPolicy = HillClimbing.RestartNever@9ba640 RandomChildMaker = EOSscheduling.HBSS.ChildMaker
+childMakerProvider = EOSscheduling.HBSS.ChildMaker, 
+separateLogAndEvolvableFiles = true
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$JavaGenes$Parameters = class JavaGenes.Parameters
+

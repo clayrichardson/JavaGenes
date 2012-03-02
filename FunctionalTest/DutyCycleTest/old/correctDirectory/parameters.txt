@@ -1,0 +1,40 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+slewRate = 0.02
+SSRcapacity = 20
+taskSSRuse = 1
+timeBetweenGroundStationDownload = 5400
+inputDirectory = ../accessFiles/
+maxNumberOfSwapsPerMutation = 9
+lowestTaskPriority = 1.0
+taskPriorityIncrement = 0.5
+numberOfTaskPriorityLevels = 5
+taskPriorityWeight = 1.0
+minimizeSlewingWeight = 1.0E-4
+smallSlewFactor = 0.5
+smallSlewWeight = 0.0025
+smallSlewNormalizedWeight = 0.01
+sensorType = SensorType sensorType
+permutationLength = 2034
+populationSize = 2
+kidsPerGeneration = 1
+maximumGenerations = 1
+tournamentProbability = 1.0
+fitnessFunction = weightedSumNormalized	1.0 TaskPriority		1.0E-4 MinimizeSlewing, normization 0		0.01 SmallSlewsFitness, normization 1
+evaluationFunction = JavaGenes.FitnessFunctionMultiObjective	1.0 NumberOfTakeImages		1.0 TaskPriority		1.0 MinimizeSlewing, normization 0		1.0 SmallSlewsFitness, normization 0		1.0 weightedSum	1.0 TaskPriority		1.0E-4 MinimizeSlewing, normization 0		0.0025 SmallSlewsFitness, normization 0		1.0 SmallSlewsFitness, normization 1
+paretoFitness = JavaGenes.FitnessFunctionMultiObjective	1.0 NumberOfTakeImages		1.0 TaskPriority		1.0 MinimizeSlewing, normization 0		1.0 SmallSlewsFitness, normization 1
+breeder = EOSOrderMutation swaps = 1
+childMakerProvider = EOSOrderMutation swaps = 1, 
+separateLogAndEvolvableFiles = true
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 100000
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$JavaGenes$Parameters = class JavaGenes.Parameters
+

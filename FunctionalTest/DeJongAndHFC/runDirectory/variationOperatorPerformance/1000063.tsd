@@ -1,0 +1,11 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+63	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428		-8.240140149151337	0	1	1	2	0.0	0.5	0.5	
+63	CrossoverAdewaya selector = SelectAll		-86.75348811446248	0	3	1	4	0.0	0.75	0.25	
+63	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2414266649056221 minimumNumberToSelect = 10		-12.852450730325913	0	2	0	2	0.0	1.0	0.0	
+63	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9198198362762421		-28.373622667443243	0	1	0	1	0.0	1.0	0.0	
+63	CrossoverAdewaya selector = SelectAll		-104.39221810954712	0	3	1	4	0.0	0.75	0.25	
+63	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.6140199035369795 minimumNumberToSelect = 10 expandIntervalsBy = 1.3606460336897037		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+63	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectAll		-55.44409417657121	0	2	0	2	0.0	1.0	0.0	
+63	CrossoverPickOne selector = SelectByProbability probability = 0.5 minimumNumberToSelect = 1		-11.364184833835274	0	3	2	5	0.0	0.6	0.4	
+63	CrossoverAdewaya selector = SelectAll		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+63	CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0		0.0	0	0	0	0	-1.0	-1.0	-1.0	

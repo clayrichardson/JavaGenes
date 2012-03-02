@@ -1,0 +1,4 @@
+generation	name	gov.nasa.javaGenes.core.WeightedSumFitness		up	down	between	total	upFraction	downFraction	betweenFraction
+5	SqueakyWheelTournamentSwapMutation numberOfSwaps = 2 tournamentSize = 5		0.0	0	0	40	40	0.0	0.0	1.0		523	80	0	0
+5	SqueakyWheelPlacedTSM numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 moveBackFraction = 0.3		0.0	0	0	33	33	0.0	0.0	1.0		554	66	0
+5	SqueakyWheelShiftForward numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 shiftFraction = 0.3		0.0	0	0	27	27	0.0	0.0	1.0		7

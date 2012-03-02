@@ -1,0 +1,12 @@
+generation	gov.nasa.javaGenes.EOSscheduling.NumberOfTakeImagesFitness	gov.nasa.javaGenes.EOSscheduling.MinimizeSlewingFitness	gov.nasa.javaGenes.core.WeightedSumFitness	gov.nasa.javaGenes.core.WeightedSumFitnessMean	gov.nasa.javaGenes.core.WeightedSumFitnessStdDev
+0	4.0	1662.0	833.0	842.75	9.75
+1	4.0	1407.0	705.5	705.5	0.0
+2	4.0	1407.0	705.5	705.5	0.0
+3	4.0	1389.0	696.5	696.5	0.0
+4	4.0	1320.0	662.0	662.0	0.0
+5	4.0	1320.0	662.0	662.0	0.0
+6	4.0	1320.0	662.0	662.0	0.0
+7	4.0	1320.0	662.0	662.0	0.0
+8	4.0	1320.0	662.0	662.0	0.0
+9	4.0	1313.0	658.5	658.5	0.0
+10	4.0	1313.0	658.5	658.5	0.0

@@ -1,0 +1,26 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+slewRate = 1.0
+permutationLength = 10
+populationSize = 10
+kidsPerGeneration = 20
+maximumGenerations = 5
+tournamentProbability = 1.0
+fitnessFunction = JavaGenes.WeightedSumFitness	1.0 NumberOfTakeImages
+evaluationFunction = null
+paretoFitness = null
+breeder = JavaGenes.BreederSteadyState@abcc03
+childMakerProvider = SqueakyWheelTournamentSwapMutation numberOfSwaps = 2 tournamentSize = 5, SqueakyWheelPlacedTSM numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 moveBackFraction = 0.3, SqueakyWheelShiftForward numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 shiftFraction = 0.3, 
+separateLogAndEvolvableFiles = false
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$JavaGenes$Parameters = class JavaGenes.Parameters
+

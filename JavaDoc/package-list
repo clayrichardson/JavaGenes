@@ -1,0 +1,16 @@
+gov.nasa.alsUtility
+gov.nasa.javaGenes.EOSscheduling
+gov.nasa.javaGenes.EOSscheduling.HBSS
+gov.nasa.javaGenes.chemistry
+gov.nasa.javaGenes.core
+gov.nasa.javaGenes.core.HFC
+gov.nasa.javaGenes.core.utility
+gov.nasa.javaGenes.evolvableDoubleList
+gov.nasa.javaGenes.evolvableDoubleList.DeJongExperiment
+gov.nasa.javaGenes.forceFields
+gov.nasa.javaGenes.graph
+gov.nasa.javaGenes.hillClimbing
+gov.nasa.javaGenes.main
+gov.nasa.javaGenes.permutation
+gov.nasa.javaGenes.simulatedAnnealing
+gov.nasa.javaGenes.weightNetwork

@@ -1,0 +1,5 @@
+generation	EOSscheduling.MinimizeSlewingFitness	JavaGenes.WeightedSumFitness	JavaGenes.WeightedSumFitnessMean	JavaGenes.WeightedSumFitnessStdDev
+0	1468.0	4.0	4.0	0.0
+1	1486.0	4.0	4.0	0.0
+2	1713.0	4.0	4.0	0.0
+3	1618.0	4.0	4.0	0.0

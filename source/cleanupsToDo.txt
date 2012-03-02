@@ -1,0 +1,5 @@
+Evolvables and ChileMakers use copyForEvolution() instead of the various copy() calls
+
+eliminate _variableName convention for class variables
+
+shorten SWmultiObjective funcitonal test

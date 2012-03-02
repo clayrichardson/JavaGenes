@@ -1,0 +1,12 @@
+generation	EOSscheduling.NumberOfTakeImagesFitness	EOSscheduling.MinimizeSlewingFitness	JavaGenes.WeightedSumFitness	JavaGenes.WeightedSumFitnessMean	JavaGenes.WeightedSumFitnessStdDev
+0	4.0	1753.0	878.5	891.5	13.0
+1	4.0	1491.0	747.5	747.5	0.0
+2	4.0	1491.0	747.5	747.5	0.0
+3	4.0	1466.0	735.0	735.0	0.0
+4	4.0	1397.0	700.5	700.5	0.0
+5	4.0	1397.0	700.5	700.5	0.0
+6	4.0	1397.0	700.5	700.5	0.0
+7	4.0	1397.0	700.5	700.5	0.0
+8	4.0	1397.0	700.5	700.5	0.0
+9	4.0	1378.0	691.0	691.0	0.0
+10	4.0	1378.0	691.0	691.0	0.0

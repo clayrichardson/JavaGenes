@@ -1,0 +1,8 @@
+JavaGenes is produced and distributed by  NASA under NASA's Open Source Agreement Version 1.3 (NOSA).  The text may be found in NOSA.txt in this directory.
+
+JavaGenes also contains two packages redistributed under their own licenses: Colt and JUnit.  
+
+Colt is a collection of libraries with a variety of open source-like licenses.  See http://hoschek.home.cern.ch/hoschek/colt/.  JavaGenes only uses a small fraction of the Colt libraries, primarily a random number generator and some String functions.
+
+JavaJUnit can be found at http://www.junit.org/index.htm and is distributed under the Common Public License Version 1.0 (http://www.opensource.org/licenses/cpl.php)
+

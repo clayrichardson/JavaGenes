@@ -1,0 +1,3 @@
+name	gov.nasa.javaGenes.core.WeightedSumFitness	up	down	same
+EOSOrderMutation swaps = 1	0.0	0	0	26	
+EOSPositionCrossover	0.0	0	0	68	

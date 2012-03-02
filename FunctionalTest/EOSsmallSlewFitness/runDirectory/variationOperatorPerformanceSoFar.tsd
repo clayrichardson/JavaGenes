@@ -1,0 +1,3 @@
+generation	name	gov.nasa.javaGenes.core.WeightedSumFitness		up	down	between	total	upFraction	downFraction	betweenFraction
+3	EOSOrderMutation swaps = 1		0.0	0	0	26	26	0.0	0.0	1.0	
+3	EOSPositionCrossover		8.075808808681415	9	8	17	34	0.2647058823529412	0.23529411764705882	0.5	

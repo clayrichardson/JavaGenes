@@ -1,0 +1,4 @@
+Si											
+attractiveCoefficient	repulsiveCoefficient	repulsiveExponent	attractivExponent	beta^n	n	c^2	d^2	h	innerCutoff	inner2outerCutoff	
+0.0	0.0	0.0	0.0	1.0E-16	0.0	0.0	1.0E-4	-1.0	2.7	0.3	
+10000.0	1000.0	25.0	25.0	1.0	5.0	1.0E12	1000.0	1.0	2.7	0.3	

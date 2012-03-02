@@ -1,0 +1,32 @@
+generation	name	gov.nasa.javaGenes.core.WeightedSumFitness		up	down	between	total	upFraction	downFraction	betweenFraction
+5	ChromosomeIntervalCrossover extension: 2.68926365991092		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	class gov.nasa.javaGenes.forceFields.ChromosomeCrossover		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.536669705458731 frequency: 0.7670093731584146		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.40871131750709677 frequency: 0.6605094812702088		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.787374466175868 frequency: 0.5188880727257176		-65.4910750233975	0	1	0	1	0.0	1.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.6980376967412323 frequency: 0.6486856821596063		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.8367945860721699 frequency: 0.4708064970185518		1451.3203369010948	1	0	0	1	1.0	0.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.23713047778880894 frequency: 0.34086627957208393		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.17305800741052352 frequency: 0.44128217511488865		-1369.2114264706893	1	1	0	2	0.5	0.5	0.0	
+5	ChromosomeMutation standardDeviation: 0.18394958529969158 frequency: 0.19120002640007586		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5151494027362351 frequency: 0.30229998667959973		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.43632339611678006 frequency: 0.7209274968277185		1.9710194879709633	1	0	0	1	1.0	0.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.7402591558027066 frequency: 0.7873519561580977		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.8701896038084648 frequency: 0.3528554636366823		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5546077782114586 frequency: 0.8864923538083449		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5053123937924896 frequency: 0.3958786394396798		-1427.6925873248667	0	1	0	1	0.0	1.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.4843884444944496 frequency: 0.8093480716010991		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5952650534764703 frequency: 0.2158169070008501		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.16788935450221504 frequency: 0.2564728677265701		-7.971798629310953	0	2	0	2	0.0	1.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.3455467439667104 frequency: 0.12947145776114996		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5059697123110566 frequency: 0.6851956707479131		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.14621900344336086 frequency: 0.1539797366569371		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.8041086451788138 frequency: 0.759266439733721		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.5218132931817528 frequency: 0.15680130546992088		0.0	0	0	0	0	-1.0	-1.0	-1.0	
+5	ChromosomeMutation standardDeviation: 0.746708523394673 frequency: 0.7760181260980501		43.53811480290787	1	0	0	1	1.0	0.0	0.0	
+5	ChromosomeMutation standardDeviation: 0.5070858546672506 frequency: 0.8250663752207488		-43.010329103577874	0	1	0	1	0.0	1.0	0.0	

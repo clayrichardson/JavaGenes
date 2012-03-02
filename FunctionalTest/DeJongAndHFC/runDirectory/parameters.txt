@@ -1,0 +1,54 @@
+evolvableSize = 10
+numberOfSubBreeders = 5
+reporter = gov.nasa.javaGenes.core.Reporter
+numberOfChildMakers = 10
+numberOfGetsBetweenEvolution = 100
+numberToChildMakersToKill = 3
+SEPARATOR =  = 
+populationSize = 100
+kidsPerGeneration = 100
+maximumGenerations = 100
+tournamentProbability = 1.0
+fitnessFunction = DeJongFitnessFunction number = 1
+evaluationFunction = fitness function gov.nasa.javaGenes.core.FitnessFunctionMultiObjective
+1.0	DeJongFitnessFunction number = 1
+1.0	DeJongFitnessFunction number = 2
+1.0	DeJongFitnessFunction number = 3
+1.0	DeJongFitnessFunction number = 4
+1.0	DeJongFitnessFunction number = 5
+end fitness function
+
+paretoFitness = null
+breeder = SteadyStateDiscreteBreeder considerOnlyHigherFitness=1000.0 populationSize=100
+BottomSubBreeder  killParents=true  bestFitnessAllowed=131.29055830012098 lowerIndex=0 higherIndex=19
+MiddleSubBreeder killParents=false  bestFitnessAllowed=105.02172293949195 lowerIndex=20 higherIndex=39
+MiddleSubBreeder killParents=false  bestFitnessAllowed=78.75288757886295 lowerIndex=40 higherIndex=59
+MiddleSubBreeder killParents=false  bestFitnessAllowed=52.48405221823392 lowerIndex=60 higherIndex=79
+TopSubBreeder  bestFitnessAllowed=26.21521685760489 lowerIndex=80 higherIndex=99
+
+childMakerProvider = ChildMakerEvolvingProvider2 numberOfGetsPerGeneration=100 numberToKill= 3.0 childMakerCreator=ChildMakerProviderRandom ChildMakerProviderWeighted RouletteWheel
+end RouletteWheel
+ ChildMakerProvider
+CrossoverPickOne selector = SelectByProbability probability = 0.5 minimumNumberToSelect = 1
+Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectFixedNumber numberToSelect = 7
+Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2313299702226269 minimumNumberToSelect = 10
+CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428
+MutationFixedStdDev selector = SelectModulo modulo=1 offset=0 selector=SelectFixedNumber numberToSelect = 4 standardDeviation = 0.02306920738581297
+Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectFixedNumber numberToSelect = 8
+CrossoverAdewaya selector = SelectAll
+CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.46682195046096386 minimumNumberToSelect = 10 expandIntervalsBy = 1.1609050664349267
+CrossoverOnePoint selector = SelectOneNeighboringPair modulo=1 offset=0
+CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.8063989265080131 minimumNumberToSelect = 1 expandIntervalsBy = 1.2924168816790573
+end ChildMakerProvider
+
+separateLogAndEvolvableFiles = true
+logBestEvolvableEachGeneration = true
+reportVariationOperatorPerformanceEachGeneration = true
+randomIndividualTriesPerSpecification = 10
+frequencyOfASCIIPopulations = 10
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

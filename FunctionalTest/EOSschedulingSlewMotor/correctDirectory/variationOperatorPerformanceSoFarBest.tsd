@@ -1,0 +1,4 @@
+SqueakyWheelPlacedTSM numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 moveBackFraction = 0.3	5
+SqueakyWheelTournamentSwapMutation numberOfSwaps = 2 tournamentSize = 5	4
+SqueakyWheelShiftForward numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 shiftFraction = 0.3	1
+

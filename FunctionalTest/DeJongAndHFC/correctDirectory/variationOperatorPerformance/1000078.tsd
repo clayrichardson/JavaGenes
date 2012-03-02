@@ -1,0 +1,11 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+78	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9465253281669428		-67.48615314640816	0	2	0	2	0.0	1.0	0.0	
+78	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.10872383514798663 minimumNumberToSelect = 10		-75.39980657951712	0	4	0	4	0.0	1.0	0.0	
+78	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.6140199035369795 minimumNumberToSelect = 10 expandIntervalsBy = 1.3606460336897037		-45.74416247116633	0	2	0	2	0.0	1.0	0.0	
+78	CrossoverInterval selector = SelectModulo modulo=1 offset=0 selector=SelectAll expandIntervalsBy = 0.9198198362762421		-112.37167581201638	0	4	1	5	0.0	0.8	0.2	
+78	CrossoverAdewaya selector = SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.2414266649056221 minimumNumberToSelect = 10		-156.80699965447758	1	4	3	8	0.125	0.5	0.375	
+78	CrossoverAdewaya selector = SelectAll		0.0	0	0	1	1	0.0	0.0	1.0	
+78	CrossoverAdewaya selector = SelectAll		-2.387001874172583	0	1	1	2	0.0	0.5	0.5	
+78	MutationFixedStdDev selector = SelectModulo modulo=1 offset=0 selector=SelectAll standardDeviation = 0.04348395786065965		6.219322819364606	1	0	0	1	1.0	0.0	0.0	
+78	Mutation3Parents selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectFixedNumber numberToSelect = 1		-18.212056981684835	0	2	1	3	0.0	0.6666666666666666	0.3333333333333333	
+78	MutationFixedStdDev selector = SelectModulo modulo=1 offset=0 selector=SelectChunk numberToChoose =  1 modulo=1 offset=0 selector=SelectModulo modulo=1 offset=0 selector=SelectByProbability probability = 0.4922369113875309 minimumNumberToSelect = 1 standardDeviation = 0.030526285382538168		-2.246288216916703	1	1	0	2	0.5	0.5	0.0	

@@ -1,0 +1,59 @@
+alleles = none: (SiSi_A: -100.0,-50.0)(SiSi_B: -100.0,-50.0)(SiSi_C: 0.0,8.0)(SiSi_p: -6.0,24.0)(SiSi_q: -6.0,24.0)(SiSi_a: 1.8,1.8)none: (FSi_A: -100.0,-50.0)(FSi_B: -100.0,-50.0)(FSi_C: 0.0,8.0)(FSi_p: -6.0,24.0)(FSi_q: -6.0,24.0)(FSi_a: 2.086182,2.086182)none: (FF_A: -100.0,-50.0)(FF_B: -100.0,-50.0)(FF_C: 0.0,8.0)(FF_p: -6.0,24.0)(FF_q: -6.0,24.0)(FF_a: 2.086182,2.086182)none: (SiSiSi_alpha: -100.0,-50.0)(SiSiSi_lambda: -100.0,-50.0)(SiSiSi_theta0: 1.9106332356470423,1.9106332356470423)(SiSiSi_gamma: 0.0,8.0)(SiSiSi_a1: 1.8,1.8)none: (FSiSi_alpha: -100.0,-50.0)(FSiSi_lambda: -100.0,-50.0)(FSiSi_theta0: 1.9106332356470423,1.9106332356470423)(FSiSi_gamma: 0.0,8.0)(FSiSi_a1: 2.086182,2.086182)none: (FFSi_alpha: -100.0,-50.0)(FFSi_lambda: -100.0,-50.0)(FFSi_theta0: 1.9106332356470423,1.9106332356470423)(FFSi_gamma: 0.0,8.0)(FFSi_a1: 2.086182,2.086182)none: (SiFSi_alpha: -100.0,-50.0)(SiFSi_lambda: -100.0,-50.0)(SiFSi_theta0: 1.9106332356470423,1.9106332356470423)(SiFSi_gamma: 0.0,8.0)(SiFSi_a1: 2.086182,2.086182)none: (FSiF_alpha: -100.0,-50.0)(FSiF_lambda: -100.0,-50.0)(FSiF_theta0: 1.9106332356470423,1.9106332356470423)(FSiF_gamma: 0.0,8.0)(FSiF_a1: 2.086182,2.086182)none: (FFF_alpha: -100.0,-50.0)(FFF_lambda: -100.0,-50.0)(FFF_theta0: 1.5707963267948966,1.5707963267948966)(FFF_gamma: 0.0,8.0)(FFF_a1: 1.622586,1.622586)(FFF_delta: -100.0,-50.0)(FFF_m: -6.0,24.0)(FFF_beta: 0.0,8.0)(FFF_a2: 2.086182,2.086182)
+mutationStandardDeviationInterval = 0.1,0.9
+mutationFrequencyInterval = 0.1,0.9
+mutationStandardDeviation = 0.7027114102724714
+mutationFrequency = 0.7688984368887803
+lengthsAndAnglesFilename = lengthsAndAngles.tsd
+assumedParametersFilename = input/assumedParameters.tsd
+assumed = null
+immigrantsFilename = input/immigrants.tsd
+immigrants = null
+exponentMinimumInterval = -6.0,0.0
+exponentMaximumInterval = 12.0,24.0
+exponentInterval = -6.0,24.0
+factorMinimumInterval = -100.0,-50.0
+factorMaximumInterval = 75.0,150.0
+factorInterval = -100.0,-50.0
+cutoffMaximumInterval = 3.0,8.0
+cutoffInterval = 0.0,8.0
+energiesToExamineBestIndividual = null
+F3Filename = ../F3Energies.xyz
+SiFAllFilename = ../SiFAll.xyz
+Si5Filename = ../Si5_51_SEenergies.xyz
+SiCrystalsFilename = ../SiCrystals.xyz
+potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+SEPARATOR =  = 
+populationSize = 8
+kidsPerGeneration = 2
+maximumGenerations = 3
+tournamentProbability = 1.0
+fitnessFunction = fitness function fitness
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+end fitness function
+
+evaluationFunction = fitness function gov.nasa.javaGenes.core.FitnessFunctionMultiObjective
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+1.0	class gov.nasa.javaGenes.forceFields.LowestToHighestEnergyFitness, Clusters = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+end fitness function
+
+paretoFitness = null
+breeder = BreederSteadyState
+childMakerProvider = ChildMakerProvider
+ChromosomeIntervalCrossover extension: 2.0
+ChromosomeIntervalCrossover extension: 2.0
+ChromosomeIntervalCrossover extension: 2.0
+end ChildMakerProvider
+
+separateLogAndEvolvableFiles = false
+logBestEvolvableEachGeneration = true
+reportVariationOperatorPerformanceEachGeneration = false
+randomIndividualTriesPerSpecification = 10
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

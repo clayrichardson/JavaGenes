@@ -1,0 +1,28 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+SSRcapacity = 5
+taskSSRuse = 1
+typicalTimeBetweenGroundStationDownload = 5400
+permutationLength = 49
+populationSize = 2
+kidsPerGeneration = 10
+maximumGenerations = 10
+tournamentProbability = 1.0
+fitnessFunction = JavaGenes.WeightedSumFitness	1.0 NumberOfTakeImages		1.0 MinimizeSlewing, normization 0
+evaluationFunction = JavaGenes.FitnessFunctionMultiObjective	1.0 NumberOfTakeImages		1.0 MinimizeSlewing, normization 0
+paretoFitness = null
+breeder = Simulated Annealing: Accepter: reduceBy = 10.0 currentTemperature = 100.0 callsPerStaticTemperature = 1 delta
+childMakerProvider = ChildMakerProviderWeighted RouletteWheel ChangingWeightsObject start 0.0 slope 0.0 object OrderMutation swaps = 1, ChangingWeightsObject start 1.0 slope 0.0 object OrderMutation swaps = 2, ChangingWeightsObject start 2.0 slope 0.0 object OrderMutation swaps = 3, ChangingWeightsObject start 3.0 slope 0.0 object OrderMutation swaps = 4, 
+separateLogAndEvolvableFiles = true
+randomIndividualTriesPerSpecification = 10
+layoutGraph2d = true
+layout = GraphLayout
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$JavaGenes$Parameters = class JavaGenes.Parameters
+

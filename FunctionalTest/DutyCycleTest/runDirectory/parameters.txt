@@ -1,0 +1,68 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+slewRate = 0.02
+SSRcapacity = 20
+taskSSRuse = 1
+timeBetweenGroundStationDownload = 5400
+inputDirectory = ../accessFiles/
+maxNumberOfSwapsPerMutation = 9
+lowestTaskPriority = 1.0
+taskPriorityIncrement = 0.5
+numberOfTaskPriorityLevels = 5
+taskPriorityWeight = 1.0
+minimizeSlewingWeight = 1.0E-4
+smallSlewFactor = 0.5
+smallSlewWeight = 0.0025
+smallSlewNormalizedWeight = 0.01
+sensorType = SensorType sensorType
+permutationLength = 2034
+SEPARATOR =  = 
+populationSize = 2
+kidsPerGeneration = 1
+maximumGenerations = 1
+tournamentProbability = 1.0
+fitnessFunction = fitness function weightedSumNormalized
+1.0	TaskPriority
+1.0E-4	MinimizeSlewing, normization 0
+0.01	SmallSlewsFitness, normization 1
+end fitness function
+
+evaluationFunction = fitness function gov.nasa.javaGenes.core.FitnessFunctionMultiObjective
+1.0	NumberOfTakeImages
+1.0	TaskPriority
+1.0	MinimizeSlewing, normization 0
+1.0	SmallSlewsFitness, normization 0
+1.0	fitness function weightedSum
+1.0	TaskPriority
+1.0E-4	MinimizeSlewing, normization 0
+0.0025	SmallSlewsFitness, normization 0
+end fitness function
+
+1.0	SmallSlewsFitness, normization 1
+end fitness function
+
+paretoFitness = fitness function gov.nasa.javaGenes.core.FitnessFunctionMultiObjective
+1.0	NumberOfTakeImages
+1.0	TaskPriority
+1.0	MinimizeSlewing, normization 0
+1.0	SmallSlewsFitness, normization 1
+end fitness function
+
+breeder = class gov.nasa.javaGenes.hillClimbing.Breeder: accepter = gov.nasa.javaGenes.hillClimbing.AcceptImprovement@402af3 RestartPolicy = gov.nasa.javaGenes.hillClimbing.RestartNever@c3e9e9 RandomChildMaker = EOSOrderMutation swaps = 1
+childMakerProvider = ChildMakerProvider
+EOSOrderMutation swaps = 1
+end ChildMakerProvider
+
+separateLogAndEvolvableFiles = true
+logBestEvolvableEachGeneration = false
+reportVariationOperatorPerformanceEachGeneration = false
+randomIndividualTriesPerSpecification = 10
+frequencyOfASCIIPopulations = 100000
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

@@ -1,0 +1,8 @@
+
+6. unit test bits and pieces of EOSscheduling.HBSS.contention
+
+- random models Experiment1Test.java
+
+- generate schedule from Evolvable for eval fitness, use in random tests
+
+7. functional test EOSscheduling.HBSS.contention

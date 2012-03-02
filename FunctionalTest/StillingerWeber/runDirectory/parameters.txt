@@ -1,0 +1,52 @@
+alleles = none: (FF_A: -100.0,100.0)(FF_B: -100.0,100.0)(FF_C: 0.0,8.0)(FF_p: 0.0,24.0)(FF_q: 0.0,24.0)(FF_a: 3.77,3.77)none: (FFF_alpha: -100.0,100.0)(FFF_lambda: -100.0,100.0)(FFF_theta0: 1.5707963267948966,1.5707963267948966)(FFF_gamma: 0.0,8.0)(FFF_a1: 3.77,3.77)(FFF_delta: -100.0,100.0)(FFF_m: 0.0,24.0)(FFF_beta: 0.0,8.0)(FFF_a2: 4.37,4.37)none: (FSi_A: -100.0,100.0)(FSi_B: -100.0,100.0)(FSi_C: 0.0,8.0)(FSi_p: 0.0,24.0)(FSi_q: 0.0,24.0)(FSi_a: 3.77,3.77)none: (FSiSi_alpha: -100.0,100.0)(FSiSi_lambda: -100.0,100.0)(FSiSi_theta0: 1.9106332356470423,1.9106332356470423)(FSiSi_gamma: 0.0,8.0)(FSiSi_a1: 3.77,3.77)none: (SiFSi_alpha: -100.0,100.0)(SiFSi_lambda: -100.0,100.0)(SiFSi_theta0: 1.9106332356470423,1.9106332356470423)(SiFSi_gamma: 0.0,8.0)(SiFSi_a1: 3.77,3.77)none: (SiSi_A: -100.0,100.0)(SiSi_B: -100.0,100.0)(SiSi_C: 0.0,8.0)(SiSi_p: 0.0,24.0)(SiSi_q: 0.0,24.0)(SiSi_a: 3.77,3.77)none: (SiSiSi_alpha: -100.0,100.0)(SiSiSi_lambda: -100.0,100.0)(SiSiSi_theta0: 1.9106332356470423,1.9106332356470423)(SiSiSi_gamma: 0.0,8.0)(SiSiSi_a1: 3.77,3.77)none: (CC_A: -100.0,100.0)(CC_B: -100.0,100.0)(CC_C: 0.0,8.0)(CC_p: 0.0,24.0)(CC_q: 0.0,24.0)(CC_a: 7.0,7.0)none: (CCC_alpha: -100.0,100.0)(CCC_lambda: -100.0,100.0)(CCC_theta0: 1.9106332356470423,1.9106332356470423)(CCC_gamma: 0.0,8.0)(CCC_a1: 3.77,3.77)
+lengthsAndAnglesFilename = lengthsAndAngles.tsd
+assumedParametersFilename = assumedParameters.tsd
+assumed = null
+immigrantsFilename = immigrants.tsd
+immigrants = null
+exponentMinimumInterval = -6.0,0.0
+exponentMaximumInterval = 12.0,24.0
+exponentInterval = 0.0,24.0
+factorMinimumInterval = -100.0,-50.0
+factorMaximumInterval = 75.0,150.0
+factorInterval = -100.0,100.0
+cutoffMaximumInterval = 3.0,8.0
+cutoffInterval = 0.0,8.0
+tournamentProbabilityInterval = 0.1,1.0
+intervalCrossoverFrequencyInterval = 1,10
+extensionInterval = 0.3,3.0
+crossoverFrequencyInterval = 0,5
+arrayCrossoverFrequencyInterval = 0,0
+mutationTransmissionFrequencyInterval = 1,30
+energiesToExamineBestIndividual = null
+SiFAllFilename = ../SiFAllSmall.xyz
+Cfilename = ../C.xyz
+potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+SEPARATOR =  = 
+populationSize = 10
+kidsPerGeneration = 20
+maximumGenerations = 5
+tournamentProbability = 0.22744338734990713
+fitnessFunction = fitness function gov.nasa.javaGenes.core.WeightedSumFitness
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+1.0	class gov.nasa.javaGenes.forceFields.ManyMoleculesEnergyFitness, Molecules = , Potential = class gov.nasa.javaGenes.forceFields.StillingerWeber
+end fitness function
+
+evaluationFunction = null
+paretoFitness = null
+breeder = BreederSteadyState
+childMakerProvider = ChildMakerProvider
+Mutation3Parents standardDeviationFactor: 1.0
+end ChildMakerProvider
+
+separateLogAndEvolvableFiles = false
+logBestEvolvableEachGeneration = true
+reportVariationOperatorPerformanceEachGeneration = false
+randomIndividualTriesPerSpecification = 10
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

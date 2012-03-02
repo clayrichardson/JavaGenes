@@ -1,0 +1,34 @@
+model = EOSModel
+scheduler = Scheduler
+takeImageTime = 24
+timeBetweenSamples = 60
+slewRate = 1.0
+permutationLength = 10
+populationSize = 10
+kidsPerGeneration = 20
+maximumGenerations = 5
+tournamentProbability = 1.0
+fitnessFunction = fitness function gov.nasa.javaGenes.core.WeightedSumFitness
+1.0	NumberOfTakeImages
+end fitness function
+
+evaluationFunction = null
+paretoFitness = null
+breeder = BreederSteadyState
+childMakerProvider = ChildMakerProvider
+SqueakyWheelTournamentSwapMutation numberOfSwaps = 2 tournamentSize = 5
+SqueakyWheelPlacedTSM numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 moveBackFraction = 0.3
+SqueakyWheelShiftForward numberOfSwaps = 2 tournamentSize = 5 moveForwardFraction = 0.5 shiftFraction = 0.3
+end ChildMakerProvider
+
+separateLogAndEvolvableFiles = false
+logBestEvolvableEachGeneration = true
+reportVariationOperatorPerformanceEachGeneration = false
+randomIndividualTriesPerSpecification = 10
+frequencyOfASCIIPopulations = 1
+stopFile = stop
+suspendFile = suspend
+suspendTime = 10000
+stopAtPerfection = false
+class$gov$nasa$javaGenes$core$Parameters = class gov.nasa.javaGenes.core.Parameters
+

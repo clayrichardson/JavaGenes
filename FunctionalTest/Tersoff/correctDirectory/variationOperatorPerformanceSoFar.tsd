@@ -1,0 +1,3 @@
+generation	name	gov.nasa.javaGenes.core.WeightedSumFitness		up	down	between	total	upFraction	downFraction	betweenFraction
+5	
+ChromosomeXoverWithMutation mutationProbability:0.5 ChromosomeIntervalCrossover extension: 2.0 ChromosomeMutation standardDeviation: 0.5 frequency: 0.5		

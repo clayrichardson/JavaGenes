@@ -1,0 +1,6 @@
+generation	name	fitness		up	down	between	total	upFraction	downFraction	betweenFraction
+6	class gov.nasa.javaGenes.chemistry.MoleculeTwoVertexCrossover		1.1714637478352754	5	1	4	10	0.5	0.1	0.4	
+6	class gov.nasa.javaGenes.graph.AddEdge		0.6571216115000145	2	0	0	2	1.0	0.0	0.0	
+6	class gov.nasa.javaGenes.graph.AddVertex		0.09651276939774289	5	0	0	5	1.0	0.0	0.0	
+6	class gov.nasa.javaGenes.graph.MutateEdge		0.0261743915281758	2	1	0	3	0.6666666666666666	0.3333333333333333	0.0	
+6	class gov.nasa.javaGenes.graph.MutateVertex		0.0	0	0	0	0	-1.0	-1.0	-1.0	

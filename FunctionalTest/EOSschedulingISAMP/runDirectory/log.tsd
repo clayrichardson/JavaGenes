@@ -1,0 +1,5 @@
+generation	gov.nasa.javaGenes.EOSscheduling.MinimizeSlewingFitness	gov.nasa.javaGenes.core.WeightedSumFitness	gov.nasa.javaGenes.core.WeightedSumFitnessMean	gov.nasa.javaGenes.core.WeightedSumFitnessStdDev
+0	1378.0	4.0	4.0	0.0
+1	1378.0	4.0	4.0	0.0
+2	1278.0	4.0	4.0	0.0
+3	1742.0	4.0	4.1	0.3
